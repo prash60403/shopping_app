@@ -10,4 +10,4 @@ class CustomerAdmin(UserAdmin):
 
         ),
     )
-admin.site.register(Customuser, CustomerAdmin)
+admin.site.register(Customuser, UserAdmin)
